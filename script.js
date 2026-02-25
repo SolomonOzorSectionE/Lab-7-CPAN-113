@@ -21,3 +21,16 @@ demoForm.addEventListener("submit", (event) => {
   event.preventDefault();
   formMsg.textContent = "Form submitted!";
 });
+
+
+
+const focusInput = document.getElementById("focusInput");
+const focusMsg = document.getElementById("focusMsg");
+
+focusInput.addEventListener("focus", () => {
+  focusMsg.textContent = "Input finally locked in!";
+});
+
+focusInput.addEventListener("blur", () => {
+  focusMsg.textContent = "Input lost focus, but it was a good run!";
+});
