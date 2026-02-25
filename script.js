@@ -8,3 +8,10 @@ hoverBtn.addEventListener("mouseenter", () => {
 hoverBtn.addEventListener("mouseleave", () => {
   mouseMsg.textContent = "MOUSE IS NOT ON THE BUTTON ANYMORE, I REPEAT, THE MOUSE IS NOT ON THE BUTTON ANYMORE.";
 });
+
+const keyInput = document.getElementById("keyInput");
+const keyMsg = document.getElementById("keyMsg");
+
+keyInput.addEventListener("keydown", (event) => {
+  keyMsg.textContent = "Last key pressed: " + event.key;
+});
