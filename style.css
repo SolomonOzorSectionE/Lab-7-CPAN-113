@@ -1,1 +1,37 @@
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: #e5e7eb; 
+  color: #000000; 
+  margin: 0;
+  padding: 10px;
+}
 
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#mainContainer {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: #f9fafb; 
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #0050fd; 
+  color: #ffffff;
+}
+
+input {
+  padding: 6px;
+  margin-top: 5px;
+  border: 1px solid #000000;
+}
