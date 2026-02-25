@@ -15,3 +15,9 @@ const keyMsg = document.getElementById("keyMsg");
 keyInput.addEventListener("keydown", (event) => {
   keyMsg.textContent = "Last key pressed: " + event.key;
 });
+
+
+demoForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  formMsg.textContent = "Form submitted!";
+});
